@@ -11,4 +11,5 @@ const watchEvents = (function () {
   return {gtmInit: gtmInit};
 })();
 
+console.log('Script loaded!');
 watchEvents.gtmInit();
